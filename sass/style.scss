@@ -1,0 +1,215 @@
+@import "mixin";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #43cbff;
+    @include flx;
+}
+
+.row
+{
+    width: 100%;
+    @include flx;
+
+    .column
+    {
+        margin: 10px;
+        height: 100%;
+
+        .card
+        {
+            position: relative;
+            width: 300px;
+            padding: 10px 5px;
+            margin: auto;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.4);
+            cursor: pointer;
+            transition: all 0.3s linear;
+
+            &::after
+            {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border: 2px solid #fff;
+                border-radius: 8px;
+                box-sizing: border-box;
+                transition: 0.2s linear;
+            }
+
+            &:hover
+            {
+                &::after
+                {
+                    border-color: #6536ff;
+                }
+                .img-wrap
+                {
+                    &::after
+                    {
+                        border-color: #43cbff;
+                    }
+                }
+
+                .content
+                {
+                    
+                    .name
+                    {
+                        color: #7536ff;
+                    }
+                    .company
+                    {
+                        color: #222;
+                    }
+                    .btn
+                    {
+                        background: transparent;
+                        color: #7536ff;
+                    }
+                }
+            }
+
+            .img-wrap
+            {
+                position: relative;
+                width: 150px;
+                height: 150px;
+                margin: 5px auto 10px;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                padding: 5px;
+                cursor: pointer;
+                transition: 0.2s linear;
+                
+                &::after
+                {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+                    border: 2px solid #6536ff;
+                    transition: 0.2s linear;
+                }
+                
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+            }
+            .content
+            {
+                position: relative;
+                width: 100%;
+                padding: 5px;
+                margin: 5px 0;
+
+                .name
+                {
+                    font-family: "Comic Sans MS", sans-serif;
+                    font-size: 1.55rem;
+                    font-weight: 600;
+                    color: #222;
+                    letter-spacing: 1.11px;
+                    margin-bottom: 5px;
+                    transition: 0.2s linear;
+                }
+                .designation
+                {
+                    font-size: 1rem;
+                    font-weight: 400;
+                    letter-spacing: 1.05px;
+                    margin-bottom: 8px;
+                }
+                .company
+                {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    letter-spacing: 1.1px;
+                    margin-bottom: 10px;
+                    color: #6536ff;
+                    transition: 0.2s linear;
+                }
+                .social-media
+                {
+                    list-style: none;
+                    margin: 10px 0;
+                    padding: 10px 5px;
+                    @include flx;
+                    justify-content: space-evenly;
+
+                    .icon
+                    {
+                        font-size: 1.25rem;
+
+                        a
+                        {
+                            text-decoration: none;
+                            color: #000;
+  
+                            .dbl
+                            {
+                                color: #ea4c89;
+                            }
+                            .dvt
+                            {
+                                color: #5f27cd;
+                            }
+                            .cdp
+                            {
+                                color: #111;
+                            }
+                            .bhn
+                            {
+                                color: #1769ff;
+                            }
+                        }
+                    }
+                }
+                .btn
+                {
+                    text-decoration: none;
+                    display: inline-block;
+                    line-height: 1;
+                    padding: 5px 30px;
+                    font-family: cursive;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    word-spacing: 2px;
+                    background: #7536ff;
+                    color: #fff;
+                    border-radius: 10px;
+                    border: 2px solid #7536ff;
+                    transition: 0.25s linear;
+                }
+            }
+        }
+    }
+}
