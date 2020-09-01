@@ -108,6 +108,17 @@ Here, are some software & plugins required that enhance our performance for proj
 1. Now, Project runs successfully on your browser.
 
 
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Below images will provide usage of our page.
+
+<div align="center" width="100%">
+
+![](http://g.recordit.co/fyyOBIxDOQ.gif)
+</div>
+
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -144,19 +155,19 @@ Distributed under the MIT License. See [***`LICENSE`***][license-url] for more i
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/DevilStudio27/wedding-blazer-product-ui?logo=github&logoColor=cyan&style=flat-square
-[contributors-url]: https://github.com/DevilStudio27/wedding-blazer-product-ui/graphs/contributors
+[contributors-url]: https://github.com/DevilStudio27/Awesome-Profile-Card-UI/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/devilstudio27/wedding-blazer-product-ui?label=Forks&logo=github&logoColor=cyan&style=flat-square
-[forks-url]: https://github.com/DevilStudio27/wedding-blazer-product-ui/network/members
+[forks-url]: https://github.com/DevilStudio27/Awesome-Profile-Card-UI/network/members
 [stars-shield]: https://img.shields.io/github/stars/devilstudio27/wedding-blazer-product-ui?logo=github&logoColor=cyan&style=flat-square
-[stars-url]: https://github.com/DevilStudio27/wedding-blazer-product-ui/stargazers
+[stars-url]: https://github.com/DevilStudio27/Awesome-Profile-Card-UI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/devilstudio27/wedding-blazer-product-ui?logo=github&logoColor=cyan&style=flat-square
-[issues-url]: https://github.com/DevilStudio27/wedding-blazer-product-ui/issues
+[issues-url]: https://github.com/DevilStudio27/Awesome-Profile-Card-UI/issues
 [license-shield]: https://img.shields.io/github/license/devilstudio27/wedding-blazer-product-ui?logo=github&logoColor=cyan&style=flat-square
-[license-url]: https://github.com/DevilStudio27/wedding-blazer-product-ui/blob/master/LICENSE
+[license-url]: https://github.com/DevilStudio27/Awesome-Profile-Card-UI/blob/master/LICENSE
 
 
-[contributing]:https://github.com/DevilStudio27/wedding-blazer-product-ui/graphs/contributors
-[fork]:https://github.com/DevilStudio27/wedding-blazer-product-ui/network/members
+[contributing]:https://github.com/DevilStudio27/Awesome-Profile-Card-UI/graphs/contributors
+[fork]:https://github.com/DevilStudio27/Awesome-Profile-Card-UI/network/members
 
 [vs-code]:https://code.visualstudio.com/
 [live-server-shield]:https://img.shields.io/visual-studio-marketplace/i/ritwickdey.liveserver?label=Live%20Server&logo=visual-studio-code&logoColor=cyan&style=flat-square
